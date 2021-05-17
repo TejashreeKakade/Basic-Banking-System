@@ -1,0 +1,86 @@
+body{
+    background-image: url(Images/bg1.jpg);
+    background-repeat: no-repeat;
+}
+.bank-img{
+     width: 70%;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+#homepage{
+    padding:5%;
+}
+.tagline{
+    margin: 5% 0 15%;
+}
+.transfer-button{
+    margin-top: 8%;
+    margin-left: 30%;
+    background: #766161;
+    background-image: -webkit-linear-gradient(top, #766161, #d8ac9c);
+    background-image: -moz-linear-gradient(top, #766161, #d8ac9c);
+    background-image: -ms-linear-gradient(top, #766161, #d8ac9c);
+    background-image: -o-linear-gradient(top, #766161, #d8ac9c);
+    background-image: linear-gradient(to bottom, #766161, #d8ac9c);
+    -webkit-border-radius: 18;
+    -moz-border-radius: 18;
+    border-radius: 18px;
+    font-family: Arial;
+    color:black;
+    font-size: 30px;
+    padding: 11px 20px 12px 20px;
+    text-decoration: none;
+}
+.transfer-button:hover {
+    background: #f3bda1;
+    background-image: -webkit-linear-gradient(top, #f3bda1, #3498db);
+    background-image: -moz-linear-gradient(top, #f3bda1, #3498db);
+    background-image: -ms-linear-gradient(top, #f3bda1, #3498db);
+    background-image: -o-linear-gradient(top, #f3bda1, #3498db);
+    background-image: linear-gradient(to bottom, #f3bda1, #3498db);
+    text-decoration: none;
+
+}
+.sliding
+{
+    background-color:black;
+    height: 500px;
+    width: 100%;
+}
+.sliding .container-fluid img{
+    height: 500px;
+    
+       
+      
+}
+.sliding .container-fluid h1{
+    font-size: 5rem;
+    opacity: 0.5;
+    color: black;
+
+}
+.sliding .container-fluid p{
+    font-size: 3rem;
+        background-color: white;
+        background: linear-gradient(pink,lightblue,grey);
+    }
+
+
+    /* container*/
+.features{
+    padding:7% 15%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.feature-icon{
+    color:#ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icon:hover{
+    color: #ff4c68;
+}
